@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+
+  p.green{
+    color:green;
+    font-size: 15px;
+  }
+  div.info{
+    
+    width:1100px;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: rgba(0,0,0,0.5);
+  }
+	span{
+		color:blue;
+		font-weight:bold;
+	}
+	h1,p{
+    color:darkgray;
+		text-align: center;
+	}
+  h1{
+    font-size:35px;
+  }
+  p{
+    color:white;
+    font-size:20px;
+  }
+	table, th, td{
+	  border: 1px solid black;
+    text-align: center;
+	  
+	}
+	.black{
+		color:black;
+
+	}
+  th,td{
+    max-width: 350px;
+  }
+  th{
+    background-color: darkseagreen;
+    font-size: 20px;
+    padding: 15px;
+  }
+  td{
+    background-color: lightcyan;
+  }
+	</style>
+</head>
+
+<body background="image/back1.jpg" >
+<div class="info">
+<h1><u>Indroduction</u></h1>
+<p >Hello, My Name is Naurin Azad. I am a student of CSE in United International University. Now, I am in my last trimester so I have started planning about my future profession. I believe Web Designing is interesting. It lets us to show our creativity and thats why I joined Shikhbe Shobai to improve my designing skills. I hope this wil bring success in my life</p>
+<p><img src="image/mypic.jpg" alt="my face" width="400" height="400" ></p> <!-- p-er vitor jai text dei center-e align hobe--> 
+<p>Please, Check My First Assignment Below ...</p>
+<table align="center" cellspacing="0">		
+  <tr>
+    <th width="10">Serial</th>
+    <th width="10">Tag</th>
+    <th width="350">Description</th>
+    <th width="300">Example (Copy the Line Written in Green)</th>
+  </tr>
+
+
+  <tr>
+    <td>1</td>
+    <td>&lt;!--...--></td>
+    <td>This is a <span>Comment Tag</span>. Anything written here will not show in webpage</td>
+    <td><p class="green">&lt;!-- this sentence will not show in webpage--></p>
+        <!-- this sentence will not show in webpage--></td>
+  </tr>
+
+
+  <tr>
+    <td>2</td>
+    <td>&lt;a></td>
+    <td>this is a <span>Link Tag</span>. By writing the desired webpage in HREF it will go there</td>
+    <td><p class="green"> &lt;a href="http://www.google.com">link to google&lt;/a></p>
+    	<a href="http://www.google.com">link to google</a></td> <!-- http:// na dile shea bujhbe na eta INTERNET-er page--> 
+  </tr>
+
+
+  <tr>
+    <td>3</td>
+    <td>&lt;abbr></td>
+    <td>This is an <span>Abbreviation Tag</span>. If the mouse is hovered over a abbreviation tag, it will show the full form</td>
+    <td><p class="green">the &lt;abbr title="International Cricket Council">ICC&lt;/abbr><br> is a cricket organization</a></p>
+      the <abbr title="International Cricket Council">ICC</abbr> is a cricket organization</a></td>
+  </tr>
+
+
+  <tr>
+    <td>4</td>
+    <td>&lt;address></td>
+    <td>This is an <span>Address Tag</span>. This Can be used to specify <br>where the addresses should be written.</td>
+    <td><p class="green">&lt;address>Phone:2441139&lt;br>Dhaka-1209,Bangladesh&lt;/address></p>
+    	<address>Phone:2441139<br>Dhaka-1209,Bangladesh</address></td>
+  </tr>
+
+
+  <tr>
+    <td>5</td>
+    <td>&lt;area></td>
+    <td>This is an <span>Area Tag</span>, It defines an area(rectangle,circle,poly) inside an image which can be used to link to somewhere else. This tag always stays inside a &lt;map> tag<br>
+    </td>
+    <td><p class="green">&lt;img src="google.jpg" width="100" height="100" usemap="#a"><br>
+    	&lt;map name="a"> &lt;area shape="circle" coords="50,50,30" href="http://www.google.com"> &lt;/map></p>
+    	<img src="image/google.jpg" width="100" height="100" usemap="#a">
+		  <map name="a">
+			<area shape="circle" coords="50,50,30" href="http://www.google.com"> 
+		</map>
+		</td>
+  </tr>	
+  
+
+  <tr>
+    <td>6</td>
+    <td>&lt;aticle></td>
+    <td>This is an <span>Article Tag</span>. This Can be used to specify where the articles should be written.</td>
+    <td><p class="green">&lt;article> 
+    		this is an article about shikhbe shobai...
+			&lt;/article>
+	</p>
+    	<article> 
+    		this is an article about shikhbe shobai...
+		</article>
+		</td>
+  </tr>	
+
+
+  <tr>
+    <td>7</td>
+    <td>&lt;aside></td>
+    <td>This is an <span>Aside Tag</span>. This can be used to specify where the content related to the surrounding content should
+        be written.</td>
+    <td><p class="green">&lt;aside> this is an aside content related to shikhbe shobai...&lt;/aside></p>
+    <aside> 
+      this is an aside content related to shikhbe shobai... 
+    </aside>
+    </td>
+  </tr> 
+
+
+  <tr>
+    <td>8</td>
+    <td>&lt;audio></td>
+    <td>This is an <span>Audio Tag</span>. This can be used to store audio clips. But the audio clip source must be put in &lt;source src="DIRECTORY" type="audio/TYPE"></td>
+    <td><p class="green">&lt;audio controls><br>
+        &lt;source src="sound/hello.wav" type="audio/wav"><br>
+        &lt;source src="sound/hello.mp3" type="audio/mp3"><br>
+      &lt;/audio>
+  </p>
+      <audio controls>
+        <source src="audio/hello.wav" type="audio/wav">
+        <source src="audio/hello.mp3" type="audio/mp3">
+      </audio>
+    </td>
+  </tr> 
+
+
+  <tr>
+    <td>9</td>
+    <td>&lt;b></td>
+    <td>This is a <span>Bold Tag</span>. This can be used to Bold content written inside here</td>
+    <td><p class="green">this is not bold &lt;b> this is bold  &lt;/b>
+  </p>
+      this is not bold <b> this is bold </b>
+    </td>
+  </tr> 
+
+
+  <tr>
+    <td>10</td>
+    <td>&lt;base></td>
+    <td>This is a <span>Base Tag</span> specifies the base URL/target for all relative URLs in a document.
+        Only used once per html file</td>
+    <td><p class="green">&lt;head>&lt;base href="D:\naurin\" target="_blank">&lt;/head><br> <!--changed directory-->
+  &lt;body>&lt;p>&lt;img src="image/mypic.jpg"width="50"height="50">&lt;/p>&lt;/body>
+  </p>
+  <head><base href="" target="_blank"></head> <!--D:\naurin\--> <!--github-er link-->
+  <body>                                      <!--base change kora lagbe-->
+    <p><img src="image/back1.jpg" alt="my face" width="50" height="50" ></p>
+  </body>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>11</td>
+    <td>&lt;bdi></td>
+    <td>This is a <span>Bi-Directional Isolation Tag</span>. This can be used to isolate a part of text that might be formatted in a different direction( Arabic starts from right to left)</td>
+    <td><p class="green">User &lt;bdi>إيان  &lt;/bdi>: 90 points</p>
+      User <bdi>إيان</bdi>: 90 points
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>12</td>
+    <td>&lt;bdo></td>
+    <td>This is a <span>Bi-Directional Override Tag</span>. This is used to override the current text direction</td>
+    <td><p class="green">&lt;bdo dir="rtl">This paragraph will go right-to-left.&lt;/bdo> </p>
+      <bdo dir="rtl">This paragraph will go right-to-left.</bdo> 
+    </td>
+  </tr>
+
+
+
+  <tr>
+    <td>13</td>
+    <td>&lt;big></td>
+    <td>This is a <span>Bigger Text Tag</span>. This makes the text bigger than normal</td>
+    <td><p class="green"> &lt;big>This text is bigger.&lt;/big> </p>
+      <big>This text is bigger.</big> 
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>14</td>
+    <td>&lt;blockquote></td>
+    <td>This is a <span>Quote Tag</span>. This specifies a section that is quoted from another source</td>
+    <td> <p class="green"> Nokia: &lt;blockquote cite="http://www.nokia.com/index.html"> Connecting People&lt;/blockquote> </p>
+      Nokia: <blockquote cite="http://www.nokia.com/index.html"> Connecting People</blockquote> <!--changed cite-->
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>15</td>
+    <td>&lt;body></td>
+    <td>This is a <span>Body Tag</span>. This tag defines the document's body. Every HTML has a body</td>
+    <td> <p class="green"> &lt;body>content written in body&lt;/body> </p>
+      <body>content written in body</body>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>16</td>
+    <td>&lt;button></td>
+    <td>This is a <span>Button Tag</span>. If the button is clicked, it can be specified what can be clicked in Onclick</td>
+    <td> <p class="green"> &lt;button type="button" onclick="alert('Hello world!')">Click Me!&lt;/button> </p>
+      <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>17</td>
+    <td>&lt;canvas></td>
+    <td>This is a <span>Canvas Tag</span>. This is used to draw graphics, on the fly, via scripting (usually JavaScript)</td>
+    <td> <p class="green" style="height: 125px;"> &lt;canvas id="myCanvas">&lt;/canvas><br><!--changed style-->
+      &lt;script>
+      var c = document.getElementById("myCanvas");<br>
+      var ct = c.getContext("2d");
+      ct.fillStyle = "#FF0000";<br>
+      ct.fillRect(125, 0, 50, 50);
+      &lt;/script>
+      &lt;/p>
+
+      <canvas id="myCanvas"></canvas>
+      <script>
+      var c = document.getElementById("myCanvas"); 
+      var ct = c.getContext("2d");
+      ct.fillStyle = "#FF0000";
+      ct.fillRect(125, 0, 50, 50);  
+      </script>
+    </td><!--changed fillrect-->
+  </tr>
+
+
+  <tr>
+    <td>18</td>
+    <td>&lt;caption></td>
+    <td>This is a <span>Table Caption Tag</span>. It gives a headline on top of the table. This tag must be used after the table tag.</td>
+    <td> <p class="green"> 
+      &lt;table align="center">&lt;caption>Class Attendance&lt;/caption><br>
+          &lt;tr> &lt;th>roll&lt;/th> &lt;th>class&lt;/th> &lt;/tr><br>
+          &lt;tr> &lt;td>10&lt;/td> &lt;td>E&lt;/td> &lt;/tr><br>
+          &lt;tr> &lt;td>13&lt;/td> &lt;td>E&lt;/td> &lt;/tr>&lt;/table>
+           </p>
+      
+    <table align="center"><caption>Class Attendance</caption>
+          <tr> <th>roll</th> <th>class</th> </tr>
+          <tr> <td>10</td> <td>E</td> </tr>
+          <tr> <td>13</td> <td>E</td> </tr></table>
+    </td><!--changed value and aligned table in center-->
+  </tr>
+
+
+  <tr>
+    <td>19</td>
+    <td>&lt;center></td>
+    <td>This is a <span>Center Tag</span>. This tag is used to center-align text</td>
+    <td> <p class="green"> &lt;center>content written in body&lt;/center> </p>
+      <center>content is in center</center>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>20</td>
+    <td>&lt;cite></td>
+    <td>This is a <span>Cite Tag</span>. This tag defines the title of a work</td>
+    <td> <p class="green">  &lt;cite>The Scream&lt;/cite> by Edward Munch. </p>
+      <cite>The Scream</cite> by Edward Munch.
+    </td>
+  </tr>
+
+  <tr>
+    <td>21</td>
+    <td>&lt;code></td>
+    <td>This is a <span>Code Tag</span>. This tag specifies a piece of computer code.</td>
+    <td> <p class="green">  &lt;code>printf("hello world");&lt;/code> </p>
+      <code>printf("hello world");</code>
+    </td>
+  </tr>
+
+   <tr>
+    <td>22</td>
+    <td>&lt;datalist></td>
+    <td>This is a<span>Datalist Tag</span>. Which provides a drop-down list of pre-defined options as the input data.</td>
+    <td><p class="green">&lt;form action="/action_page.php" method="get"><br>
+        &lt;input list="browsers" name="browser"><br>
+          &lt;datalist id="browsers">
+            &lt;option value="Internet Explorer">
+            &lt;option value="Firefox">
+            &lt;option value="Chrome">
+          &lt;/datalist><br>
+        &lt;input type="submit">
+      &lt;/form>
+      </p>
+      <form action="/action_page.php" method="get">
+        <input list="browsers" name="browser">
+          <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+          </datalist>
+        <input type="submit">
+      </form>
+ </td>
+  </tr>
+
+  <tr>
+    <td>23</td>
+    <td>&lt;del></td>
+    <td>This is a <span>Delete Tag</span> defines text that has been deleted from a document.</td>
+    <td><p class="green">My favorite color is &lt;del>blue&lt;/del> red!</p>
+      My favorite color is <del>blue</del> red!
+
+ </td>
+  </tr>
+
+   <tr>
+    <td>24</td>
+    <td>&lt;dfn></td>
+    <td>This is a <span>Defining Instance Tag</span> tag which represents the defining instance of a term in HTML.</td>
+    <td><p class="green">&lt;dfn>HTML&lt;/dfn> is the standard markup language</p>
+      <dfn>HTML</dfn> is the standard markup language
+ </td>
+  </tr>
+
+  <tr>
+    <td>25</td>
+    <td>&lt;div></td>
+    <td>The <span>div Tag</span> defines a division or a section in an HTML document.</td>
+    <td><p class="green">&lt;
+      div style="background-color:lightblue">
+      &lt;h3>This is a heading in a div element&lt;/h3>
+      &lt;p>This is some text in a div element.&lt;/p>
+    &lt;/div>
+      <div style="background-color:lightblue">
+      <h3>This is a heading in a div element</h3>
+      <p>This is some text in a div element.</p>
+    </div>
+    </p>
+ </td>
+  </tr>
+
+  <tr>
+    <td>26</td>
+    <td>&lt;data></td>
+    <td>The <span>data Tag</span> links the given content with a machine-readable translation.</td>
+    <td><p class="green">&lt;
+      The following example displays product names but also associates each name with a product number:></p>
+      <ul>
+         <li><data value="21053">Cherry Tomato</data></li>
+         <li><data value="21054">Beef Tomato</data></li>
+         <li><data value="21055">Snack Tomato</data></li>
+      </ul>
+    </p>
+ </td>
+  </tr>
+
+  <tr>
+    <td>27</td>
+    <td>&lt;detail></td>
+    <td>The <span>detail</span> specifies additional details that the user can view or hide on demand.</td>
+    <td><p class="green">&lt;
+      details>
+      <&lt;summary>Copyright 1999-2018.&lt;/summary>
+      &lt;/detail>
+      <details>
+        <summary>Copyright 1999-2018.</summary>
+      </details>
+ </td>
+  </tr>
+  
+
+  <tr>
+    <td>28</td>
+    <td>&lt;em></td>
+    <td>This is a <span>Emphasize Tag</span>. This tag specifies a text that should be emphasized</td>
+    <td> <p class="green">  &lt;em>Emphasized text&lt;/em> </p>
+      <em>Emphasized text</em>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>29</td>
+    <td>&lt;embed></td>
+    <td>This is a <span>Embed Tag</span>. This defines a container for an external application or interactive content</td>
+    <td> <p class="green">  &lt;embed src="helloworld.swf"> </p>
+      <embed src="helloworld.swf">
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>30</td>
+    <td>&lt;fieldset></td>
+    <td>This is a <span>Fieldset Tag</span>. This tag draws a box around the related elements.</td>
+    <td> <p class="green">  
+      &lt;fieldset>
+        &lt;legend>Personalia:&lt;/legend>
+        Name: &lt;input type="text">&lt;br>
+        Email: &lt;input type="text">&lt;br>
+      &lt;/fieldset> 
+      </p>
+      <fieldset>
+        <legend style="text-align: left">Personalia:</legend> <!--changed with style-->
+        Name: <input type="text"><br>
+        Email: <input type="text"><br>
+      </fieldset>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>31</td>
+    <td>&lt;figcaption></td>
+    <td>This is a <span>Figure Caption Tag</span>. This defines a caption for a figure element.</td>
+    <td> <p class="green">  &lt;figure>
+        &lt;img src="image/mypic.jpg" alt="my face" width="50" height="50" >
+        &lt;figcaption>Fig: Naurin Azad.&lt;/figcaption>
+      &lt;/figure> </p>
+      
+      <figure>
+        <img src="image/mypic.jpg" alt="my face" width="50" height="50" >
+        <figcaption>Fig: Naurin Azad.</figcaption>
+      </figure>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>32</td>
+    <td>&lt;figure></td>
+    <td>This is a <span>Figure Tag</span>. This specifies a self-contained content, like diagrams, photos etc.</td>
+    <td> <p class="green">  &lt;figure>
+        &lt;img src="image/mypic.jpg" alt="my face" width="50" height="50" >
+      &lt;/figure> </p>  
+      <figure>
+        <img src="image/mypic.jpg" alt="my face" width="50" height="50" >
+      </figure>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>33</td>
+    <td>&lt;figcaption></td>
+    <td>This is a <span>Figure Caption Tag</span>. This defines a caption for a figure element.</td>
+    <td> <p class="green">  &lt;font color="red">This is some text!&lt;/font>
+      &lt;font color="blue">This is some text!&lt;/font>
+      &lt;font face="verdana" color="green">This is some text!&lt;/font> </p>
+      
+      <font color="red">This is some text!</font>
+      <font color="blue">This is some text!</font>
+      <font face="verdana" color="green">This is some text!</font>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>34</td>
+    <td>&lt;footer></td>
+    <td>This is a <span>Footer Tag</span>. This a footer for a document or section.</td>
+    <td> <p class="green">  &lt;footer> Posted by: Hege Refsnes&lt;/footer> </p>  
+      <footer> Posted by: Hege Refsnes</footer>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>35</td>
+    <td>&lt;form></td>
+    <td>This is a <span>Form Tag</span>. The is used to create an HTML form for user input.</td>
+    <td> <p class="green">  
+      &lt;form action="/action_page.php">
+        ID: &lt;input type="text" name="FirstName">&lt;br>
+        SEC: &lt;input type="text" name="LastName">&lt;br>
+        &lt;input type="submit" value="Submit">
+      &lt;/form>
+       </p>  
+      <form action="/action_page.php">
+        ID: <input type="text" name="FirstName"><br>
+        SEC: <input type="text" name="LastName"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>36</td>
+    <td>&lt;h1-h6></td>
+    <td>This are <span>heading Tag</span>. this heading's font size varies in legnth</td>
+    <td> <p class="green">  &lt;h4>This is heading 4&lt;/h4>
+      &lt;h5>This is heading 5&lt;/h5>
+      &lt;h6>This is heading 6&lt;/h6> 
+      </p>  
+      <h4>This is heading 4</h4>
+      <h5>This is heading 5</h5>
+      <h6>This is heading 6</h6>
+    </td>
+  </tr>
+
+  <tr>
+    <td>37</td>
+    <td>&lt;hr></td>
+    <td>The <span>hr Tag</span> element is used to separate content (or define a change) in an HTML page.</td>
+    <td> <p class="green">&lt;
+    	h1>HTML<&lt;/h1>
+		<&lt;hr>
+		<&lt;h1>CSS<&lt;/h1>
+		<h1 class="black">HTML</h1>
+
+		<hr>
+
+		<h1 class="black">CSS</h1>
+    </td>
+  </tr>
+
+  <tr>
+    <td>38</td>
+    <td>&lt;i></td>
+    <td>The <span>hr Tag</span> can be used to indicate a technical term,a phrase from another language,a thought etc.</td>
+    <td> <p class="green">&lt;p>He named his car &lt;i>The lightning &lt;/i>, because it was very fast. &lt;/p>
+    	<p class="black">He named his car <i>The lightning</i>, because it was very fast.</p>
+    </td>
+  </tr>
+
+
+ <tr>
+    <td>39</td>
+    <td>&lt;iframe></td>
+    <td>The <span>iframe Tag</span> specifies an inline frame.</td>
+    <td> <p class="green">&lt;
+    	iframe> src="https://shikhbeshobai.com/">
+ 		&lt;p>Your browser does not support iframes.&lt;/p>
+		&lt;/iframe>
+
+    	<iframe src="https://shikhbeshobai.com/">
+ 		<p>Your browser does not support iframes.</p>
+		</iframe>
+    </td>
+  </tr>
+
+<tr>
+    <td>40</td>
+    <td>&lt;img></td>
+    <td>The <span>img Tag</span> defines an image in an HTML page.</td>
+    <td> <p class="green">&lt;
+    	img src="image\smiley.jpg" alt="Smiley face" width="42" height="42"&lt;/p>
+    	<br>
+    	<img src="image\smiley.jpg" alt="Smiley face" width="42" height="42">
+    </td>
+  </tr>
+
+  <tr>
+    <td>41</td>
+    <td>&lt;input></td>
+    <td>The <span>input Tag</span> specifies an input field where the user can enter data.</td>
+    <td> <p class="green">&lt;
+    	form action="/action_page.php">
+			First name: &lt;input type="text" name="FirstName" value="Mickey">&lt;br>
+			Last name: &lt;input type="text" name="LastName" value="Mouse">&lt;br>
+			&lt;input type="submit" value="Submit">
+		&lt;/form>
+    	<form action="/action_page.php">
+			First name: <input type="text" name="FirstName" value="Mickey"><br>
+			Last name: <input type="text" name="LastName" value="Mouse"><br>
+			<input type="submit" value="Submit">
+		</form>
+    </td>
+  </tr>
+
+<tr>
+    <td>42</td>
+    <td>&lt;ins></td>
+    <td>The <span>ins Tag</span> defines a text that has been inserted into a document.</td>
+    <td> <p class="green">&lt;
+    	p>My favorite color is &lt;del>blue&lt;/del> &lt;ins>red&lt;/ins>!&lt;/p>
+    	<br>
+    	<p class="black">My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>43</td>
+    <td>&lt;mark></td>
+    <td>The <span>mark Tag</span> defines marked text.</td>
+    <td> <p class="green">&lt;
+    	p>Do not forget to buy &lt;mark>milk&lt;/mark> today.&lt;/p>
+    	<br>
+    	<p class="black">Do not forget to buy <mark>milk</mark> today.</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>44</td>
+    <td>&lt;meter></td>
+    <td>The <span>meter Tag</span> defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.</td>
+    <td> <p class="green">&lt;
+    	p>Display a gauge:&lt;/p>
+		&lt;meter value="2" min="0" max="10">2 out of 10&lt;/meter>&lt;br>
+		&lt;meter value="0.6">60%&lt;/meter>
+    	<br>
+    	<p class="black">Display a gauge:</p>
+		<meter value="2" min="0" max="10">2 out of 10</meter><br>
+		<meter value="0.6">60%</meter>
+    </td>
+  </tr>
+
+  <tr>
+    <td>45</td>
+    <td>&lt;nav></td>
+    <td>The <span>nav Tag</span> defines a set of navigation links.</td>
+    <td> <p class="green">&lt;
+    	nav>
+			&lt;a href="/html/">HTML&lt;/a> |
+			&lt;a href="/css/">CSS&lt;/a> |
+			&lt;a href="/js/">JavaScript&lt;/a> |
+			&lt;a href="/jquery/">jQuery&lt;/a>
+		&lt;/nav>
+    	<br>
+    	<nav>
+			<a href="/html/">HTML</a> |
+			<a href="/css/">CSS</a> |
+			<a href="/js/">JavaScript</a> |
+			<a href="/jquery/">jQuery</a>
+		</nav>
+    </td>
+  </tr>
+
+
+<tr>
+    <td>46</td>
+    <td>&lt;option></td>
+    <td>The <span>option Tag</span> defines an option in a select list.</td>
+    <td> <p class="green">&lt;
+    	select>
+  			&lt;option value="volvo">Volvo&lt;/option>
+  			&lt;option value="saab">Saab&lt;/option>
+ 			&lt;option value="opel">Opel&lt;/option>
+  			&lt;option value="audi">Audi&lt;/option>
+		&lt;/select>
+    	<br>
+    	<select>
+  			<option value="volvo">Volvo</option>
+  			<option value="saab">Saab</option>
+ 			<option value="opel">Opel</option>
+  			<option value="audi">Audi</option>
+		</select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>47</td>
+    <td>&lt;p></td>
+    <td>The <span>p Tag</span> defines a paragraph</td>
+    <td> <p class="green">&lt;
+    	p>This is a paragraph.&lt;/p>
+		&lt;p>This is a paragraph.&lt;/p>
+    	<br>
+    	<p class="black">This is a paragraph.</p>
+		<p class="black">This is a paragraph.</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>48</td>
+    <td>&lt;progress></td>
+    <td>The <span>progress Tag</span> represents the progress of a task.</td>
+    <td> <p class="green">&lt;
+    	Downloading progress:
+		&lt;progress value="22" max="100">
+		&lt;/progress>
+    	<br>
+    	<p class="black">Downloading progress:
+		<progress value="22" max="100">
+		</progress>
+    </td>
+  </tr>
+
+  <tr>
+    <td>49</td>
+    <td>&lt;s></td>
+    <td>The <span>s Tag</span> specifies text that is no longer correct, accurate or relevant.</td>
+    <td> <p class="green">&lt;
+    	 p>&lt;s>My car is blue.&lt;/s>&lt;/p>
+		&lt;p>My new car is silver.&lt;/p>
+    	<br>
+    	<p class="black"><s class="black">My car is blue.</s></p>
+		<p class="black">My new car is silver.</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td>50</td>
+    <td>&lt;small></td>
+    <td>The <span>small Tag</span> defines smaller text (and other side comments).</td>
+    <td> <p class="green">&lt;
+    	&lt;p>W3Schools.com - the world's largest web development site.&lt;/p>
+		&lt;p>&lt;small>Copyright 1999-2050 by Refsnes Data.&lt;/small>&lt;/p>
+    	<br>
+    	<p class="black">W3Schools.com - the world's largest web development site.</p>
+		<p class=""><small class="black">Copyright 1999-2050 by Refsnes Data.</small></p>
+    </td>
+  </tr>
+
+
+
+</table>
+<p>the tags used here is supported in HTML5.</p>
+</div>
+
+</body>
+</html>
